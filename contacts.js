@@ -1,6 +1,5 @@
 const fs = require("fs/promises");
 const path = require("path");
-// const { nanoid } = require("nanoid");
 const { customAlphabet } = require("nanoid");
 const nanoid = customAlphabet("1234567890", 2);
 
